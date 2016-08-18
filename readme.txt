@@ -1,5 +1,6 @@
 
-Databse Schema
+database schema
+
 
 CREATE TABLE `item` (
   `id` int(10) NOT NULL,
@@ -8,22 +9,10 @@ CREATE TABLE `item` (
   `image` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Indexes for dumped tables
---
 
---
--- Indexes for table `item`
---
 ALTER TABLE `item`
   ADD PRIMARY KEY (`id`);
 
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `item`
---
 ALTER TABLE `item`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
+
